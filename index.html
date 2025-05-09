@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Storage</title>
+    <link rel="stylesheet" href="sytle.css" />
+  </head>
+  <body>
+    <h1>Web Storage</h1>
+
+    <div id="signup">
+      <h2>회원가입</h2>
+      <input type="text" id="signup_name" placeholder="이름" />
+      <input type="email" id="signup_email" placeholder="이메일" />
+      <input type="password" id="signup_password" placeholder="비밀번호" />
+      <button id="signup_btn">회원가입</button>
+    </div>
+
+    <div id="login">
+      <h2>로그인</h2>
+      <input type="email" id="login_email" placeholder="이메일" />
+      <input type="password" id="login_password" placeholder="비밀번호" />
+      <button id="login_btn">로그인</button>
+    </div>
+
+    <div id="home" style="display: none">
+      <h2 msg="login_msg">로그인 성공</h2>
+      <button id="logout_btn">로그아웃</button>
+    </div>
+
+    <script src="js/local.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/session.js"></script>
+  </body>
+</html>
