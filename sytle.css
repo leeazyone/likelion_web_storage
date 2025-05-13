@@ -4,6 +4,7 @@ body {
   width: 500px;
   margin: 0 auto;
   background: #f3f3f3;
+  zoom: 2;
 }
 
 h1,
